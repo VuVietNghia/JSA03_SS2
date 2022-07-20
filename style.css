@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+}
+.container {
+    background-image: url('http://www.omnifood.net/resources/CSS/img/hero-min.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://www.omnifood.net/resources/CSS/img/hero-min.jpg');
+}
+.header {
+    padding-top: 12%;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    margin-left: 15%;
+}
+h1 {
+    font-weight: 100;
+}
+.menu-link {
+    text-decoration: none;
+    color: white;
+}
+.text {
+    display: flex;
+    gap: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    margin: 0% -68% 0 76%;
+}
+.omnifood {
+    width: 20%;
+}
+.title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 18%;
+    margin-top: 8%;
+    color: white;
+}
+.buttom {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 18%;
+}
+.left-link {
+    background-color: orange;
+    padding: 1%;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+}
+.right-link {
+    color: orange;
+    padding: 1%;
+    box-shadow: rgb(255 118 0 / 2%) 0px 1px 3px 0px, rgb(255 188 0) 0px 0px 0px 1px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-left: 1%;
+}
+.title-introduce {
+    margin-left: 36%;
+    margin-top: 4%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.introduce {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 32%;
+    margin-top: 4%;
+}
+.box-title {
+    font-weight: 400;
+}
+.pros {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box {
+    width: 15%;
+}
+.center {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 5%;
+}
+.center-img {
+    width: 100%;
+    height: auto;
+}
+.city-title {
+    margin-left: 36%;
+    margin-top: 4%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.city-list {
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 4%;
+}
+.city-img {
+    width: 80%;
+}
+.city-box {
+    width: 16%;
+}
+.city-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.city-link {
+    color: orange;
+}
+.container-customers {
+    background-image: url('http://www.omnifood.net/resources/CSS/img/hero-min.jpg');
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://www.omnifood.net/resources/CSS/img/hero-min.jpg');
+}
+.customers-text {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.customers-title {
+    margin-left: 36%;
+    margin-top: 4%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding-top: 3%;
+}
+.customers-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.customers-note {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    width: 60%;
+}
+.customers-box {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
